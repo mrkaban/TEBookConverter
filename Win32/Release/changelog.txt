@@ -1,0 +1,59 @@
+--1.9
+-Added: German translation
+-Added: Re-written translation code
+-Added: Smallest main window size is now 800x600
+-Added: Increased item height in the file list
+-Fixed: Translation related problems
+-Fixed: Program would stuck if all files were skipped somehow
+-Fixed: Open output folder button at convertion window didn't work
+-Fixed: Opening and closing language window would reset some controls in the main window
+-Fixed: Program will create folder for each file when converting it, not before
+-Fixed: Many minor bugs
+
+--1.8(28.12.2014)
+-Updated: Calibre to 2.14
+-Updated: Internally used libraries
+
+--1.7 (05.10.2014)
+-Added: Spanish and Hungarian translations
+-Updated: Calibre to 2.5
+
+--1.6 (23.08.2014)
+-Added: Russian and Portuguese translations
+-Updated: Calibre to 2.0
+
+--1.5 (15.08.2014)
+-Added: Turkish and French translations
+-Added: A few interface changes
+-Removed: Skin
+
+--1.4 (10.08.2014)
+-Added: Users can now read ebooks
+-Added: A text will show the number of files in the list
+-Added: Users can now uncheck the files they don't want to convert
+-Added: Program will try to create output folder everytime a convertion starts
+-Added: Hints to many controls
+-Updated: Calibre to 1.48
+
+--1.3 (03.08.2014)
+-Added: Device presets for many devices
+-Added: An option to skip files if they have the selected output format
+-Added: New skin
+-Added: Portable version
+-Fixed: A few small interface problems
+-Updated: Calibre to 1.47
+
+--1.2 (26.07.2014)
+-Fixed: Could not start convertion in some cases
+-Fixed: Progress show during convertion was truncated
+-Fixed: Stopping convertion didn't reset program title
+
+--1.1 (25.07.2014)
+-Added: 64bit version
+-Added: Windows 7 or later taskbar progress
+-Added: Program will no longer try to convert from sources that no longer exist
+-Fixed: Could not convert to PDF due to a typo
+-Updated: Calibre to 1.46
+
+--1.0 (24.07.2014)
+-First Release

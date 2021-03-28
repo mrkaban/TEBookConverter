@@ -1,0 +1,30 @@
+Thank you for considering translating TEBookConverter to your language. You can do this by following
+a few easy steps:
+
+1-Open "TEBookConverter.lng" file with a text editor (file is located next to TEBookConverter.exe)
+2-Start translating English texts to your language. Follow these rules:
+	2.1-Do not translate sections starting with "[Ts". They are reserved for skinning component
+	and translating them may cause problems.
+	2.2-Do not translate "XYZ.SkinData.SkinSection" lines. They are reserved for skinning component
+	and translating them may cause problems.
+	2.3-Do not translate "[TMadExcept]" section.
+	2.5-Sections you will be translating will generally have "[TXXXForm]" name (TMainForm for example)
+	2.5-Do not change first 8 lines.
+3-Respect formated strings. You will see strings like "%d files", "%d" here will be converted to a number
+in the run time ("516 files" for example) so adjust your translation according to that.
+4-Try to translate strings so that they fit the interface.
+
+Updates:
+When I make a change that requires translations to be updated, I will send you an updated version of your language file.
+New entries or lines that need updating will be marked with (!). Unused lines will start with (x). After making neccessary 
+changes, please remove these symbols.
+
+After you finished translation (or updating), save edited file as "TEBookConverter.xy.lng". "xy" here is language code (tr for Turkish 
+for example). Send the file with the following information to ozok26@gmail.com:
+1-Language
+2-Your name and email address
+3-Whether you want to appear in translators list
+
+You can always contact me at ozok26@gmail.com .
+
+Thank you again.

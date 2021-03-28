@@ -1,0 +1,220 @@
+object LogForm: TLogForm
+  Left = 0
+  Top = 0
+  Caption = 'Logs'
+  ClientHeight = 300
+  ClientWidth = 635
+  Color = clBtnFace
+  DoubleBuffered = True
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object sPageControl1: TPageControl
+    Left = 0
+    Top = 0
+    Width = 635
+    Height = 259
+    ActivePage = sTabSheet1
+    Align = alClient
+    TabOrder = 0
+    object sTabSheet1: TsTabSheet
+      Caption = 'Program log'
+      SkinData.CustomColor = False
+      SkinData.CustomFont = False
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      object MainList: TsMemo
+        Left = 0
+        Top = 0
+        Width = 627
+        Height = 231
+        Align = alClient
+        BorderStyle = bsNone
+        Color = clWhite
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ReadOnly = True
+        ScrollBars = ssBoth
+        TabOrder = 0
+        BoundLabel.Indent = 0
+        BoundLabel.Font.Charset = DEFAULT_CHARSET
+        BoundLabel.Font.Color = clWindowText
+        BoundLabel.Font.Height = -11
+        BoundLabel.Font.Name = 'Tahoma'
+        BoundLabel.Font.Style = []
+        BoundLabel.Layout = sclLeft
+        BoundLabel.MaxWidth = 0
+        BoundLabel.UseSkinColor = True
+        SkinData.SkinSection = 'EDIT'
+      end
+    end
+    object sTabSheet2: TsTabSheet
+      Caption = 'File add log'
+      SkinData.CustomColor = False
+      SkinData.CustomFont = False
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      object FileAddList: TsMemo
+        Left = 0
+        Top = 0
+        Width = 627
+        Height = 231
+        Align = alClient
+        BorderStyle = bsNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ReadOnly = True
+        ScrollBars = ssBoth
+        TabOrder = 0
+        BoundLabel.Indent = 0
+        BoundLabel.Font.Charset = DEFAULT_CHARSET
+        BoundLabel.Font.Color = clWindowText
+        BoundLabel.Font.Height = -11
+        BoundLabel.Font.Name = 'Tahoma'
+        BoundLabel.Font.Style = []
+        BoundLabel.Layout = sclLeft
+        BoundLabel.MaxWidth = 0
+        BoundLabel.UseSkinColor = True
+        SkinData.SkinSection = 'EDIT'
+      end
+    end
+    object sTabSheet3: TsTabSheet
+      Caption = 'Command line logs'
+      SkinData.CustomColor = False
+      SkinData.CustomFont = False
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      object CMDList: TsMemo
+        Left = 0
+        Top = 0
+        Width = 627
+        Height = 231
+        Align = alClient
+        BorderStyle = bsNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ReadOnly = True
+        ScrollBars = ssBoth
+        TabOrder = 0
+        BoundLabel.Indent = 0
+        BoundLabel.Font.Charset = DEFAULT_CHARSET
+        BoundLabel.Font.Color = clWindowText
+        BoundLabel.Font.Height = -11
+        BoundLabel.Font.Name = 'Tahoma'
+        BoundLabel.Font.Style = []
+        BoundLabel.Layout = sclLeft
+        BoundLabel.MaxWidth = 0
+        BoundLabel.UseSkinColor = True
+        SkinData.SkinSection = 'EDIT'
+      end
+    end
+    object sTabSheet4: TsTabSheet
+      Caption = 'Error logs'
+      SkinData.CustomColor = False
+      SkinData.CustomFont = False
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      object CalibreList: TsMemo
+        Left = 0
+        Top = 0
+        Width = 627
+        Height = 231
+        Align = alClient
+        BorderStyle = bsNone
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        ReadOnly = True
+        ScrollBars = ssBoth
+        TabOrder = 0
+        BoundLabel.Indent = 0
+        BoundLabel.Font.Charset = DEFAULT_CHARSET
+        BoundLabel.Font.Color = clWindowText
+        BoundLabel.Font.Height = -11
+        BoundLabel.Font.Name = 'Tahoma'
+        BoundLabel.Font.Style = []
+        BoundLabel.Layout = sclLeft
+        BoundLabel.MaxWidth = 0
+        BoundLabel.UseSkinColor = True
+        SkinData.SkinSection = 'EDIT'
+      end
+    end
+  end
+  object sPanel1: TsPanel
+    Left = 0
+    Top = 259
+    Width = 635
+    Height = 41
+    Align = alBottom
+    TabOrder = 1
+    SkinData.SkinSection = 'TOOLBAR'
+    object SaveBtn: TsBitBtn
+      Left = 1
+      Top = 1
+      Width = 75
+      Height = 39
+      Align = alLeft
+      Caption = 'Save'
+      TabOrder = 0
+      OnClick = SaveBtnClick
+      SkinData.SkinSection = 'BUTTON'
+    end
+    object ClearBtn: TsBitBtn
+      Left = 76
+      Top = 1
+      Width = 75
+      Height = 39
+      Align = alLeft
+      Caption = 'Clear'
+      TabOrder = 1
+      OnClick = ClearBtnClick
+      SkinData.SkinSection = 'BUTTON'
+    end
+    object sBitBtn3: TsBitBtn
+      Left = 559
+      Top = 1
+      Width = 75
+      Height = 39
+      Align = alRight
+      Caption = 'Close'
+      TabOrder = 2
+      OnClick = sBitBtn3Click
+      SkinData.SkinSection = 'BUTTON'
+    end
+  end
+  object sSaveDialog1: TsSaveDialog
+    Filter = 'TEXT Files|*.txt'
+    Options = [ofOverwritePrompt, ofHideReadOnly, ofEnableSizing]
+    Left = 176
+    Top = 136
+  end
+end
